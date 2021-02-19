@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Counter from './Counter/index.jsx';
+import Calendar from './Calendar/index.jsx';
+import Content from './Wrappers/index';
+import FlexContainer from '../src/Wrappers/index';
 
-function App() {
+const App = () => {
+  //const step = 1;
+  //передай в <Counter step={step}>
+  //можешь вызвать Calendar
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <FlexContainer jc='center' ai='center'/>
     </div>
   );
-}
+};
 
 export default App;
