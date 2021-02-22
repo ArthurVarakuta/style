@@ -11,8 +11,7 @@ const App = () => {
 
   return (
     <div>
-      
-      <FlexContainer jc='center' ai='center'/>
+      <FlexContainer jc='center' ai='center' />
     </div>
   );
 };
